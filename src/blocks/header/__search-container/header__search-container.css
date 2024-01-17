@@ -1,0 +1,14 @@
+.header__search-container {
+  display: flex;
+}
+.header__search-container::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../../images/magnifying-glass.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 50%;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}

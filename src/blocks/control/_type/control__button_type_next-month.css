@@ -1,0 +1,9 @@
+.control__button_type_next-month {
+  background-color: transparent;
+  background-image: url("../../../images/arrow-right.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: 1px solid gray;
+
+}

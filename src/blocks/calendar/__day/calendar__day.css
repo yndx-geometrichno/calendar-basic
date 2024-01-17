@@ -1,0 +1,30 @@
+.calendar__this-month {
+  background-color: #f1f1f1;
+  height: 144px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.calendar__this-month:hover {
+  opacity: 0.9;
+  background-color: #3c3f42;
+  color: white;
+  z-index: 2;
+}
+
+.calendar__prev-month {
+  background-color: #f1f1f1;
+  height: 144px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.calendar__next-month {
+  background-color: #f1f1f1;
+  height: 144px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-top: 10px;
+}

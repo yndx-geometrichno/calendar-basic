@@ -1,0 +1,27 @@
+.calendar {
+  color: var(--darkgray);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.weekdays {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.weekday {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 30px;
+  text-align: center;
+  border: 1px solid gray;
+}

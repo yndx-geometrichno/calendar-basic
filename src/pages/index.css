@@ -1,0 +1,49 @@
+@import "../vendor/normalize.css";
+@import "../vendor/variables.css";
+@import "../vendor/fonts.css";
+
+@import "../blocks/page/page.css";
+@import "../blocks/page/__container/page__container.css";
+
+@import "../blocks/content/content.css";
+
+@import "../blocks/button/button.css";
+
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__nav/footer__nav.css";
+
+
+@import "../blocks/calendar/calendar.css";
+@import "../blocks/calendar/__day/calendar__day.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__button/header__button.css";
+@import "../blocks/header/__buttons/header__buttons.css";
+@import "../blocks/header/__search-container/header__search-container.css";
+@import "../blocks/header/__search-input/header__search-input.css";
+
+@import "../blocks/control/control.css";
+@import "../blocks/control/__button/control__button.css";
+@import "../blocks/control/__buttons/contol__buttons.css";
+@import "../blocks/control/__date/control__date.css";
+@import "../blocks/control/_type/control__button_type_prev-month.css";
+@import "../blocks/control/_type/control__button_type_next-month.css";
+@import "../blocks/control/_type/control__button_type_today.css";
+
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__save-btn/popup__save-btn.css";
+@import "../blocks/popup/__save-btn/_type/popup__save-btn_type_disabled.css";
+@import "../blocks/popup/__input/popup__input.css";
+@import "../blocks/popup/__input/_type/popup__input_type_error.css";
+@import "../blocks/popup/__input-container/popup__input-container.css";
+@import "../blocks/popup/__error/popup__error.css";
+@import "../blocks/popup/__error/_visible/popup__error_visible.css";
+@import "../blocks/popup/__header/popup__header.css";
+@import "../blocks/popup/__form/popup__form.css";
+@import "../blocks/popup/__close-btn/popup__close-btn.css";
+@import "../blocks/popup/_type/popup_type_photo.css";
+@import "../blocks/popup/_opened/popup_opened.css"; /*  */
