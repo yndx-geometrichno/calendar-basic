@@ -526,7 +526,7 @@ template {
 }
 
 .calendar__prev-month {
-  background-color: #f1f1f1;
+  background-color: #cfcfcf;
   height: 144px;
   border: 1px solid gray;
   padding-left: 10px;
@@ -534,7 +534,7 @@ template {
 }
 
 .calendar__next-month {
-  background-color: #f1f1f1;
+  background-color: #cfcfcf;
   height: 144px;
   border: 1px solid gray;
   padding-left: 10px;
