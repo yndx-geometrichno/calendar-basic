@@ -407,6 +407,11 @@ template {
   }
 }
 
+.content__container {
+}
+
+.content {
+}
 
 .button:hover {
   opacity: 0.7;
@@ -516,13 +521,14 @@ template {
   border: 1px solid gray;
   padding-left: 10px;
   padding-top: 10px;
+  overflow-wrap: anywhere;
 }
 
 .calendar__this-month:hover {
   opacity: 0.9;
   background-color: #3c3f42;
   color: white;
-  z-index: 2;
+  cursor: pointer;
 }
 
 .calendar__prev-month {
@@ -539,6 +545,10 @@ template {
   border: 1px solid gray;
   padding-left: 10px;
   padding-top: 10px;
+}
+
+.day__event {
+  list-style:inside;
 }
 
 .header {
@@ -848,7 +858,7 @@ template {
   }
 }
 
-.popup_type_photo {
+.popup_type_day-events {
   background-color: rgba(0, 0, 0, .9);
 }
 
@@ -857,5 +867,45 @@ template {
   opacity: 1;
 }
 
-/*  */
+.events-popup {
+  align-items: center;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--black);
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+.events-popup {
+  display: flex;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.event__item {
+  margin: 0 0 20px;
+  max-width: 358px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.event__header {
+  margin: 0;
+}
+
+.event__about {
+  font-size: 14px;
+  padding-top: 10px;
+  margin: 0;
+  font-weight: normal;
+}
+
+
 
