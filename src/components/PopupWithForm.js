@@ -14,6 +14,7 @@ export default class PopupWithForm extends Popup {
     this._inputLlist.forEach((input) => {
       inputValues[input.name] = input.value.trim();
     });
+    console.log(inputValues)
     return inputValues;
   }
 

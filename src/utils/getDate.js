@@ -4,6 +4,7 @@ import {
 
 
 export function changeMonth(delta) {
+  currentDate.setDate(1);
   currentDate.setMonth(currentDate.getMonth() + delta);
 
   // Если месяц стал меньше 0, значит, переключаемся с января на декабрь предыдущего года
@@ -19,6 +20,7 @@ export function changeMonth(delta) {
   }
 
   chosenMonth.textContent = formatMonthYear(currentDate);
+  console.log(chosenMonth, currentDate)
 }
 
 export function resetDate() {
